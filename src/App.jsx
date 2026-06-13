@@ -2,7 +2,7 @@ import { useState, useMemo, useEffect, useRef, useCallback } from 'react';
 import './App.css';
 import LoginPage from './components/LoginPage';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://skillshift-backend-pwd-production.up.railway.app';
 
 function AnimatedCounter({ target, duration = 1200 }) {
   const [count, setCount] = useState(0);
